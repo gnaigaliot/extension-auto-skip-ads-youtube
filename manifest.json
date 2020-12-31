@@ -1,0 +1,16 @@
+{
+    "name": "Auto next youtube Ads",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "description": "Extension for auto next the Ads show on video youtube",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/watch*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
